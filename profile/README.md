@@ -1,8 +1,11 @@
 # Gov Peek
 
+**Gov Peek** is an open-source project that delivers instant, AI-powered notifications from official government sources worldwide. Our mission is to make civic updates accessible, transparent, and empowering for citizens everywhere. Subscribe, stay informed, act faster.
+
 > Instant civic awareness. One place for government news, updates, and alerts.
 
 ## 🌍 About
+
 **Gov Peek** is an open-source platform that scrapes and aggregates official government news from multiple countries, processes it with AI for clarity, and delivers instant notifications through feeds, dashboards, and apps.  
 Our mission: **Empower citizens with transparent and timely government information.**
 
