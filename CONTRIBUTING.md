@@ -19,14 +19,46 @@ One of our biggest needs is expanding coverage across more countries and regions
 3. Normalize the data into our common format:
    ```json
    {
-     "country": "Country Name",
-     "source": "Official Department Name",
-     "title": "Article Title",
-     "date": "YYYY-MM-DD",
-     "url": "https://example.gov/...",
-     "content": "Full text of the news",
-     "summary": "AI-generated summary",
-     "tags": ["health", "economy"]
+      "id": "uuid", 
+      "id_type": "uuid-v4", 
+      "country": {
+         "name": "Kenya",
+         "code": "KE"
+      },
+      "source": {
+         "name": "Ministry of Finance",
+         "url": "https://mof.gov.ke"
+      },
+      "language": {
+         "original": "sw",
+         "translated": "en"
+      },
+      "title": "New tax policy announced",
+      "url": "https://gov.ke/tax-news",
+      "content": "...full article in original language...",
+      "summary": "Government announced new tax rules effective next month.",
+      "tags": ["economy", "finance", "policy"],
+      "category": "Economy",
+      "priority": "normal",
+      "dates": {
+         "published_local": "2025-09-01T10:30:00+03:00",
+         "published_utc": "2025-09-01T07:30:00Z",
+         "scraped_at": "2025-09-01T10:35:12Z",
+         "updated_at": "2025-09-01T10:35:12Z"
+      },
+      "metadata": {
+         "source_type": "website", 
+         "scraper_version": "1.0.0",
+         "content_type": "article"
+      },
+      "ai_processing": {
+         "summarized": true,
+         "translated": true,
+         "sentiment": "neutral",
+         "keywords": ["tax", "policy", "Kenya"]
+      },
+      "status": "active"
+
    }
 
 
